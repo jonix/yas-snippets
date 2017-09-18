@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Jira URL
+# key: jurl
+# --
+https://servicedesk.hr.evry.se/borwser/US-$0

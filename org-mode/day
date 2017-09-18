@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: day
+# key: day
+# --
+*** `(format-time-string "%Y-%m-")`${1:`(format-time-string "%d")`} ${2:Veckodag} [/]
