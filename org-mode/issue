@@ -2,14 +2,14 @@
 # name: issue
 # key: issue
 # --
-**** ${1:ÄrendeNr} - ${2:Kund} - ${3:ÄrendeNamn}
+*** ${1:ÄrendeNr} - ${2:Kund} - ${3:ÄrendeNamn}
+**** Link:
 ${4:https://servicedesk.hr.evry.se/browse/$1}
 
 **** NOTES: ${5:} 
 
 **** DEADLINE: ${6:}
-
-Tid startad: ${7:} `(shell-command-to-string "echo -n $(date +%Y-%m-%d) $(date +%H:%M)")`
+Tid startad: ${7:} `(shell-command-to-string "echo -n $(date +%A) $(date +%Y-%m-%d) $(date +%H:%M)")`
 Tid avslutad: ${8:}
 Tid nedlagt: ${9:}
 
